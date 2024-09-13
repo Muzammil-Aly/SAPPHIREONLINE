@@ -1,0 +1,77 @@
+body {
+  overflow-x: hidden;
+}
+.containerELEM {
+  margin-top: 07px;
+  position: absolute;
+  width: 100%;
+
+  line-height: 0.1;
+}
+.New-in {
+  display: flex;
+  padding-right: 160px;
+  overflow: hidden;
+}
+.New-in-img-con {
+}
+.New-in-img {
+  width: 300px;
+  padding-top: 10px;
+}
+.left-items-list {
+}
+.items-list {
+  display: flex;
+  padding-left: 5px;
+}
+
+.List {
+  list-style: none;
+  margin-right: 12px;
+  padding-left: 0;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+.List a {
+  color: #000;
+  text-decoration: none;
+  font-size: 13px;
+}
+.List li {
+  padding: 2px;
+  padding-bottom: 8px;
+}
+
+.left-items-list {
+  padding-left: 30px;
+}
+
+.lis {
+  padding: 5px;
+  opacity: 1; /* Full opacity */
+  transition: opacity 0.5s ease-in-out;
+}
+.lis :hover {
+  color: #afadad;
+  opacity: 0.3;
+}
+
+.LeftHeading {
+  box-shadow: 0 1px 0 #ddd;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.LeftHeading a {
+  text-decoration: none;
+  font-size: 14px;
+  font-size: 700;
+  color: #000;
+}
+
+.solidlineN {
+  padding-left: 290px;
+}
+.Right-items-list {
+  padding-left: 20px;
+}

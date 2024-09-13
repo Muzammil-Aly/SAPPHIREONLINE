@@ -1,0 +1,156 @@
+.footer {
+  background-color: rgb(246, 246, 248);
+  display: flex;
+  padding: 0 300px 0 336px;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+.footer h2 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.location-svg {
+  margin-top: 3px;
+  margin-right: 1px;
+  width: 28px;
+  height: 28px;
+}
+.footer-text {
+  font-size: 12px;
+}
+.location {
+  display: flex;
+  line-height: 1.7;
+}
+
+.email-svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 7px;
+}
+.email {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.phone-svg {
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+}
+.phone {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 3px;
+}
+.customer-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 2.6;
+}
+.information {
+}
+.News {
+}
+.infor-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 2.6;
+}
+.email-subscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+.emailborer {
+  background-color: transparent;
+  border: 1px solid #222;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.email-subscription input {
+  padding: 10px;
+  background-color: transparent;
+  font-size: 14px;
+  width: 250px;
+  outline: none;
+}
+
+.email-subscription button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #222;
+  color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.email-subscription button:hover {
+  background-color: rgb(0, 136, 204);
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  padding-left: 0px;
+  padding-right: 70px;
+  margin-right: 200px;
+  margin-top: 10px;
+}
+
+.icon {
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.icon svg {
+  fill: #222;
+  transition: all 0.3s ease;
+  width: 24px;
+  height: 24px;
+}
+
+.icon:hover {
+  transform: translateY(-5px);
+}
+
+.icon.facebook:hover svg {
+  fill: #3b5998;
+}
+
+.icon.instagram:hover svg {
+  fill: #e4405f;
+}
+
+.icon.youtube:hover svg {
+  fill: #ff0000;
+}
+.contact-us h2 {
+  padding-left: 5px;
+}
+.footer a:hover {
+  color: #dddddd;
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 334px;
+  margin-right: 280px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.copyright p:first-child {
+  color: #878787;
+}

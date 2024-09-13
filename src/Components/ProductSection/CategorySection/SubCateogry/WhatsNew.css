@@ -1,0 +1,255 @@
+.whats-new-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.Heading {
+  font-weight: 400;
+  line-height: 45px;
+  margin-left: 26px;
+  margin-right: 40px;
+  margin-top: 100px;
+}
+.Heading p {
+  font-size: 40px;
+}
+.Heading :nth-child(2) {
+  padding-right: 42px;
+}
+
+.heading-items {
+  display: flex;
+  margin-top: 60px;
+  margin-right: 180px;
+  width: 65%;
+  margin-left: 100px;
+}
+
+.heading-items img {
+  border-radius: 50%;
+  width: 100%;
+  border: 2px solid #d7d4d4;
+}
+
+.heading-items a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.whats-new-title {
+  color: #333;
+  margin-top: 3px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.trend-info-container {
+  margin-top: 10px;
+}
+.whats-new-title p {
+  font-size: 14px;
+}
+.daily-unstitched {
+}
+.daily-unstitched {
+  margin-left: 15px;
+}
+.ProductImages {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-rows: repeat(6, auto); /* 6 rows */
+}
+.grid-items {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.grid-items img {
+  width: 100%;
+}
+.Product-image {
+}
+.ProductImages {
+  margin-left: 10px;
+  margin-right: 10px;
+  /* background-color: #007bff; */
+}
+/* .whats-new-container {
+  padding: 20px;
+} */
+
+.Heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.grid-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.grid-controls button {
+  padding: 10px 15px 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 2px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.grid-controls button:hover {
+  background-color: #929292;
+}
+.grid-layout {
+  /* background-color: aqua; */
+  /* border: 2px solid #333; */
+}
+
+.ProductImages {
+  display: grid;
+  gap: 10px;
+}
+
+.grid-item {
+  /* background-color: #0056b3; */
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.whats-new-title {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.trend-info-woman {
+  display: flex;
+  /* background-color: brown; */
+  justify-content: space-between;
+}
+.buyButton {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.magnify-on-hover:hover .buy-button {
+  opacity: 1;
+}
+.trend-text-woman {
+  font-weight: 600;
+}
+.trend-text {
+}
+.grid-items {
+  position: relative;
+  overflow: hidden;
+}
+
+.Product-image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease; /* Smooth zoom effect */
+}
+
+.magnified-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease; /* Smooth transition */
+}
+
+.grid-items:hover .buyButton {
+  opacity: 1;
+}
+
+.grid-items:hover .magnified-image {
+  opacity: 1; /* Show the magnified image on hover */
+}
+
+.grid-items:hover .Product-image img {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+.Product-image {
+  position: relative;
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+  overflow: hidden; /* Hide overflow from scaling */
+}
+.first-text-class p {
+  margin-top: -70px;
+  margin-left: 340px;
+  font-weight: 600;
+
+  font-size: 23px;
+}
+.daily-unstitched-det {
+  width: 20%;
+}
+.heading-items-det {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.whats-new-containerDet {
+  margin-bottom: 20px;
+}
+.button-grids {
+  display: flex;
+}
+.button-grids p {
+  font-size: 12px;
+  font-weight: 600;
+}
+.button-grids p:nth-child(01) {
+  font-weight: 400;
+}
+
+.grid-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 15px 0 15px;
+}
+.filter-section-1stchild {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.filter-section-1stchild img {
+  width: 20px;
+  margin-top: 6px;
+}
+.filter-section-1stchild p {
+  padding-left: 5px;
+}

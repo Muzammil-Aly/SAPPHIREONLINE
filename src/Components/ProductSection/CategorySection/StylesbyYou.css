@@ -1,0 +1,50 @@
+.styled-by-you {
+  background-color: rgb(255, 249, 233);
+  padding-top: 40px;
+  padding-left: 340px;
+  padding-right: 300px;
+  padding-bottom: 30px;
+}
+.styled-by-you-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.styled-by-you-text h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.styled-by-you-text p {
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.image-content {
+  padding-top: 40px;
+  background-color: transparent;
+}
+.image-content p:nth-child(1) {
+  font-weight: 600;
+}
+.image-content p:nth-child(2),
+.image-content p:nth-child(3) {
+  font-size: 12px;
+  font-color: #000;
+}
+.image-content p:nth-child(2) :hover {
+  color: #e5e7eb;
+}
+.image-content p:nth-child(4) {
+  font-size: 14px;
+  font-color: #000;
+}
+.styled-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+.styled-by-you-content {
+  padding-right: 20px;
+}

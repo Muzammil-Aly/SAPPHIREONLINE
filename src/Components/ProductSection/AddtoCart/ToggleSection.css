@@ -1,0 +1,47 @@
+/* ToggleSection.css */
+
+.toggle-container {
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Position relative to allow for absolute positioning inside */
+  margin: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Space between header and content */
+}
+
+.toggle-btn {
+  color: black;
+  cursor: pointer;
+  font-size: 25px;
+  /* background-color: #f9f9f9; */
+  margin-left: 100px; /* Space between button and text */
+}
+
+.details-content {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow-y: auto; /* Allows vertical scrolling */
+  max-height: 200px; /* Adjust height as needed */
+}
+.pro-text {
+  font-weight: 600;
+  font-size: 16px;
+}
+.text-details {
+  font-weight: 600;
+}
+.details-product {
+  font-size: 14px;
+}
+.space {
+  margin-bottom: 10px;
+}
+.text-flex {
+  display: flex;
+  gap: 5px;
+}

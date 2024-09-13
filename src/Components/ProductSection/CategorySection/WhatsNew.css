@@ -1,0 +1,48 @@
+.whats-new-container {
+  display: flex;
+  align-items: center;
+}
+
+.Heading {
+  font-weight: 400;
+  line-height: 38px;
+  font-size: 38px;
+  /* background-color: aqua; */
+  margin-left: 26px;
+  margin-right: 40px;
+}
+.heading-items {
+  display: flex;
+  margin-top: 60px;
+  margin-right: 180px;
+  width: 80%;
+  margin-left: 100px;
+}
+
+.heading-items img {
+  border-radius: 50%;
+  width: 100%;
+  border: 2px solid #d7d4d4;
+}
+
+.heading-items a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.whats-new-title {
+  color: #333;
+  font-size: 14px;
+  margin-top: 3px;
+  /* text-transform: capitalize; */
+  font-weight: 400;
+  /* text-align: center; */
+  line-height: 1.6;
+}
+
+.daily-unstitched {
+  border-radius: 50%;
+}
+.daily-unstitched {
+  margin-left: 15px;
+}
